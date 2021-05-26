@@ -69,7 +69,7 @@ test:
 
 about:
   home: https://github.com/dkahle/ggmap
-  license: GPL-2
+  license: GPL-2.0-only
   summary: A collection of functions to visualize spatial data and models on top of static maps
     from various online sources (e.g Google Maps and Stamen Maps). It includes tools
     common to those tasks, including functions for geolocation and routing.
