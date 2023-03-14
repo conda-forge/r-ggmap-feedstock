@@ -1,11 +1,11 @@
-About r-ggmap
-=============
+About r-ggmap-feedstock
+=======================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-ggmap-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/dkahle/ggmap
 
 Package license: GPL-2.0-only
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-ggmap-feedstock/blob/main/LICENSE.txt)
 
 Summary: A collection of functions to visualize spatial data and models on top of static maps from various online sources (e.g Google Maps and Stamen Maps). It includes tools common to those tasks, including functions for geolocation and routing.
 
