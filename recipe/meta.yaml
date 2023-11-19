@@ -1,4 +1,4 @@
-{% set version = "3.0.2" %}
+{% set version = "4.0.0" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,11 +10,11 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/ggmap_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/ggmap/ggmap_{{ version }}.tar.gz
-  sha256: ba5fe3975fd4ca1a5fbda4910c9705ac2edacec75c658177edaf87f1c55cdcae
+  sha256: 0de639357c066e3b632eb960fd811276558ce29aefa2f77ef711ff5841c734f5
 
 build:
   merge_build_host: true  # [win]
-  number: 1
+  number: 0
   noarch: generic
   rpaths:
     - lib/R/lib/
