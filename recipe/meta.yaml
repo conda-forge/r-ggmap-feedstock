@@ -1,4 +1,4 @@
-{% set version = "4.0.0" %}
+{% set version = "4.0.1" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,10 +9,10 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/ggmap_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/ggmap/ggmap_{{ version }}.tar.gz
-  sha256: 0de639357c066e3b632eb960fd811276558ce29aefa2f77ef711ff5841c734f5
+  sha256: ae250a7a90b2b823710c8263a5e4079baac3a6c13d45efe69d00cf47df47d467
 
 build:
-  number: 1
+  number: 0
   noarch: generic
   rpaths:
     - lib/R/lib/
